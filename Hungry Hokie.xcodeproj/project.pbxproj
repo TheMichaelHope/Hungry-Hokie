@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EC51D4FF2167E8A500399B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51D4FE2167E8A500399B68 /* AppDelegate.swift */; };
-		EC51D5012167E8A500399B68 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51D5002167E8A500399B68 /* FirstViewController.swift */; };
-		EC51D5032167E8A500399B68 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51D5022167E8A500399B68 /* SecondViewController.swift */; };
+		EC51D5012167E8A500399B68 /* HallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51D5002167E8A500399B68 /* HallsViewController.swift */; };
+		EC51D5032167E8A500399B68 /* FavsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51D5022167E8A500399B68 /* FavsViewController.swift */; };
 		EC51D5062167E8A500399B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC51D5042167E8A500399B68 /* Main.storyboard */; };
 		EC51D5082167E8A700399B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC51D5072167E8A700399B68 /* Assets.xcassets */; };
 		EC51D50B2167E8A700399B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC51D5092167E8A700399B68 /* LaunchScreen.storyboard */; };
@@ -18,8 +18,8 @@
 /* Begin PBXFileReference section */
 		EC51D4FB2167E8A500399B68 /* Hungry Hokie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hungry Hokie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC51D4FE2167E8A500399B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC51D5002167E8A500399B68 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EC51D5022167E8A500399B68 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EC51D5002167E8A500399B68 /* HallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallsViewController.swift; sourceTree = "<group>"; };
+		EC51D5022167E8A500399B68 /* FavsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavsViewController.swift; sourceTree = "<group>"; };
 		EC51D5052167E8A500399B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC51D5072167E8A700399B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC51D50A2167E8A700399B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				EC51D4FE2167E8A500399B68 /* AppDelegate.swift */,
-				EC51D5002167E8A500399B68 /* FirstViewController.swift */,
-				EC51D5022167E8A500399B68 /* SecondViewController.swift */,
+				EC51D5002167E8A500399B68 /* HallsViewController.swift */,
+				EC51D5022167E8A500399B68 /* FavsViewController.swift */,
 				EC51D5042167E8A500399B68 /* Main.storyboard */,
 				EC51D5072167E8A700399B68 /* Assets.xcassets */,
 				EC51D5092167E8A700399B68 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC51D5032167E8A500399B68 /* SecondViewController.swift in Sources */,
+				EC51D5032167E8A500399B68 /* FavsViewController.swift in Sources */,
 				EC51D4FF2167E8A500399B68 /* AppDelegate.swift in Sources */,
-				EC51D5012167E8A500399B68 /* FirstViewController.swift in Sources */,
+				EC51D5012167E8A500399B68 /* HallsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

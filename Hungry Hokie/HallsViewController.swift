@@ -14,18 +14,70 @@ class HallsViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-//    @IBOutlet weak var ABPTimer: UILabel!
-//    @IBOutlet weak var b37Timer: UILabel!
-//    @IBOutlet weak var DeetsTimer: UILabel!
-//    @IBOutlet weak var D2Timer: UILabel!
-//    @IBOutlet weak var DXTimer: UILabel!
-//    @IBOutlet weak var HokieGrillTimer: UILabel!
-//    @IBOutlet weak var TurnerTimer: UILabel!
-//    @IBOutlet weak var VMCTimer: UILabel!
-//    @IBOutlet weak var GrillfieldTimer: UILabel!
-//    @IBOutlet weak var PeriodicTableTimer: UILabel!
-//    @IBOutlet weak var WestEndTimer: UILabel!
+    
+    @IBOutlet weak var ABP: UILabel!
+    
+    @IBOutlet weak var B37: UILabel!
+    
+    @IBOutlet weak var DTS: UILabel!
+    
+    @IBOutlet weak var D2: UILabel!
+    
+    @IBOutlet weak var DX: UILabel!
+    
+    @IBOutlet weak var HKG: UILabel!
+    
+    @IBOutlet weak var TNR: UILabel!
+    
+    @IBOutlet weak var VMC: UILabel!
+    
+    @IBOutlet weak var GRF: UILabel!
+    
+    @IBOutlet weak var PRT: UILabel!
+    
+    @IBOutlet weak var WND: UILabel!
+    
+    
+    
+    
+    
+    @IBAction func widgetcontrol(_ sender: Any) {
+        print("Hello")
+    }
+    
+    @IBAction func timealert(_ sender: Any) {
+        print("Hello")
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
 

@@ -33,7 +33,6 @@ class FavsViewController: UIViewController {
         print("Hello")
     }
     
-    
     @IBAction func b37fav(_ sender: Any) {
         print("Hello")
     }

@@ -12,7 +12,7 @@
         <!--Halls-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController modalTransitionStyle="partialCurl" id="9pv-A4-QxB" userLabel="Halls" customClass="HallsViewController" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="partialCurl" id="9pv-A4-QxB" userLabel="Halls" customClass="HallsViewController" customModule="Hungry_Hokie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1146,9 +1146,6 @@
                         <viewLayoutGuide key="safeArea" id="gKt-8a-wcP"/>
                     </view>
                     <size key="freeformSize" width="414" height="1500"/>
-                    <connections>
-                        <outlet property="abpfav" destination="POo-RK-R9L" id="huu-QU-4yU"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rNs-pS-m3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

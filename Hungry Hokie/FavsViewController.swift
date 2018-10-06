@@ -15,6 +15,8 @@ class FavsViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func favoritesTapped(_ sender: Any) {
+    }
+    
 }
 

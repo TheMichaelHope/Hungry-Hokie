@@ -9,12 +9,8 @@
 import UIKit
 
 class FavsViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
     
+    var favcount = 0
     
     @IBOutlet weak var Fav1: UILabel!
     
@@ -29,71 +25,6 @@ class FavsViewController: UIViewController {
     @IBOutlet weak var Fav6: UILabel!
     
     
-    @IBAction func abpfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func b37fav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func deetsfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func d2fav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func dxfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func hgfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func atomfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func jambafav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func fgfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func qdobafav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func sgfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func origamifav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func dolcifav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func bagelfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func truckfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func westendfav(_ sender: Any) {
-        print("Hello")
-    }
-    
-    
     @IBOutlet weak var fav1pic: UIImageView!
     
     @IBOutlet weak var fav2pic: UIImageView!
@@ -106,6 +37,23 @@ class FavsViewController: UIViewController {
     
     @IBOutlet weak var fav6pic: UIImageView!
     
-    
-}
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        Fav1.text = ""
+        Fav2.text = ""
+        Fav3.text = ""
+        Fav4.text = ""
+        Fav5.text = ""
+        Fav6.text = ""
+        
+        fav1pic.image = UIImage(named: "applogo")
+        fav2pic.image = UIImage(named: "applogo")
+        fav3pic.image = UIImage(named: "applogo")
+        fav4pic.image = UIImage(named: "applogo")
+        fav5pic.image = UIImage(named: "applogo")
+        fav6pic.image = UIImage(named: "applogo")
+        
+    }
 
+}

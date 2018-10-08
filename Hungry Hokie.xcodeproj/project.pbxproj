@@ -14,6 +14,8 @@
 		EC51D5082167E8A700399B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC51D5072167E8A700399B68 /* Assets.xcassets */; };
 		EC51D50B2167E8A700399B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC51D5092167E8A700399B68 /* LaunchScreen.storyboard */; };
 		ECB61EEC216BD98A00BA4479 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB61EEB216BD98A00BA4479 /* SettingsViewController.swift */; };
+		ECB61EEE216BE13F00BA4479 /* FavsSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB61EED216BE13F00BA4479 /* FavsSelectController.swift */; };
+		ECB61EF0216BE61200BA4479 /* TurnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB61EEF216BE61200BA4479 /* TurnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EC51D50A2167E8A700399B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC51D50C2167E8A700399B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB61EEB216BD98A00BA4479 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ECB61EED216BE13F00BA4479 /* FavsSelectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavsSelectController.swift; sourceTree = "<group>"; };
+		ECB61EEF216BE61200BA4479 /* TurnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				EC51D4FE2167E8A500399B68 /* AppDelegate.swift */,
 				EC51D5002167E8A500399B68 /* HallsViewController.swift */,
+				ECB61EEF216BE61200BA4479 /* TurnerViewController.swift */,
 				EC51D5022167E8A500399B68 /* FavsViewController.swift */,
 				ECB61EEB216BD98A00BA4479 /* SettingsViewController.swift */,
+				ECB61EED216BE13F00BA4479 /* FavsSelectController.swift */,
 				EC51D5042167E8A500399B68 /* Main.storyboard */,
 				EC51D5072167E8A700399B68 /* Assets.xcassets */,
 				EC51D5092167E8A700399B68 /* LaunchScreen.storyboard */,
@@ -145,6 +151,8 @@
 				EC51D4FF2167E8A500399B68 /* AppDelegate.swift in Sources */,
 				EC51D5012167E8A500399B68 /* HallsViewController.swift in Sources */,
 				ECB61EEC216BD98A00BA4479 /* SettingsViewController.swift in Sources */,
+				ECB61EF0216BE61200BA4479 /* TurnerViewController.swift in Sources */,
+				ECB61EEE216BE13F00BA4479 /* FavsSelectController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,9 +34,8 @@ class HallsViewController: UIViewController {
     
     @IBOutlet weak var WND: UILabel!
     
-    var result : String!
-    
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
@@ -52,7 +51,7 @@ class HallsViewController: UIViewController {
         PRT.text = "Open"
         WND.text = "Open"
         
-       ABP.textColor = UIColor.green
+        ABP.textColor = UIColor.green
         B37.textColor = UIColor.green
         DTS.textColor = UIColor.green
         D2.textColor = UIColor.green
@@ -64,16 +63,34 @@ class HallsViewController: UIViewController {
         PRT.textColor = UIColor.green
         WND.textColor = UIColor.green
         
+        if x < 25
+        {
+            ABP.text = "Not Open"
+            B37.text = "Not Open"
+            DTS.text = "Not Open"
+            D2.text = "Not Open"
+            DX.text = "Not Open"
+            HKG.text = "Not Open"
+            TNR.text = "Not Open"
+            VMC.text = "Not Open"
+            GRF.text = "Not Open"
+            PRT.text = "Not Open"
+            WND.text = "Not Open"
+            
+            ABP.textColor = UIColor.red
+            B37.textColor = UIColor.red
+            DTS.textColor = UIColor.red
+            D2.textColor = UIColor.red
+            DX.textColor = UIColor.red
+            HKG.textColor = UIColor.red
+            TNR.textColor = UIColor.red
+            VMC.textColor = UIColor.red
+            GRF.textColor = UIColor.red
+            PRT.textColor = UIColor.red
+            WND.textColor = UIColor.red
+        }
+        
     }
-    
-    @IBAction func widgetcontrol(_ sender: Any) {
-        print("Hello")
-    }
-    
-    @IBAction func timealert(_ sender: Any) {
-        print("Hello")
-    }
-    
     
 }
 

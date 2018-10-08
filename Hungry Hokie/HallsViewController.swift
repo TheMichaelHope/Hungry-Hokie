@@ -9,11 +9,8 @@
 import UIKit
 
 class HallsViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    
+    let x = 20
     
     @IBOutlet weak var ABP: UILabel!
     
@@ -37,9 +34,37 @@ class HallsViewController: UIViewController {
     
     @IBOutlet weak var WND: UILabel!
     
+    var result : String!
     
-    
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        ABP.text = "Open"
+        B37.text = "Open"
+        DTS.text = "Open"
+        D2.text = "Open"
+        DX.text = "Open"
+        HKG.text = "Open"
+        TNR.text = "Open"
+        VMC.text = "Open"
+        GRF.text = "Open"
+        PRT.text = "Open"
+        WND.text = "Open"
+        
+       ABP.textColor = UIColor.green
+        B37.textColor = UIColor.green
+        DTS.textColor = UIColor.green
+        D2.textColor = UIColor.green
+        DX.textColor = UIColor.green
+        HKG.textColor = UIColor.green
+        TNR.textColor = UIColor.green
+        VMC.textColor = UIColor.green
+        GRF.textColor = UIColor.green
+        PRT.textColor = UIColor.green
+        WND.textColor = UIColor.green
+        
+    }
     
     @IBAction func widgetcontrol(_ sender: Any) {
         print("Hello")
@@ -48,35 +73,6 @@ class HallsViewController: UIViewController {
     @IBAction func timealert(_ sender: Any) {
         print("Hello")
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
 }
